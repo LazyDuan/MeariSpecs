@@ -29,5 +29,5 @@
         "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
     },
     "vendored_libraries": "TYLightCommonUI-1.0.8/libTYLightCommonUI.a",
-    "version": "4.0.0.1"
+    "version": "8.4.0.0.1"
 }
