@@ -28,6 +28,6 @@
         "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
         "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
     },
-    "vendored_libraries": "TYLightCommonUI-1.0.8/libTYLightCommonUI.a",
+    "vendored_libraries": "Mearilanguage/libMearilanguage.a",
     "version": "8.4.0.0.1"
 }
