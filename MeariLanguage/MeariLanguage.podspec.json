@@ -1,0 +1,33 @@
+{
+    "authors": {
+        "qianlei.duan": "https://Meari.com/"
+    },
+    "dependencies": {
+    },
+    "description": "Mearilanguage",
+    "homepage": "https://github.com/LazyDuan",
+    "license": "none",
+    "name": "Mearilanguage",
+    "platforms": {
+        "ios": "9.0"
+    },
+    "pod_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "prefix_header_file": "",
+    "resources": {
+         "Mearilanguage/Assets/bundles/Language.bundle"
+    },
+    "source": {
+        "http": "https://meari-hz.oss-accelerate.aliyuncs.com/firmware/temp/MeariLanguage.zip",
+        "type": "zip"
+    },
+    "summary": "ui only for light project.",
+    "user_target_xcconfig": {
+        "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+        "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+    },
+    "vendored_libraries": "TYLightCommonUI-1.0.8/libTYLightCommonUI.a",
+    "version": "4.0.0.1"
+}
