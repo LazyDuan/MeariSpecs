@@ -4,10 +4,10 @@
     },
     "dependencies": {
     },
-    "description": "Mearilanguage",
+    "description": "MeariLanguage",
     "homepage": "https://github.com/LazyDuan",
     "license": "none",
-    "name": "Mearilanguage",
+    "name": "MeariLanguage",
     "platforms": {
         "ios": "9.0"
     },
@@ -17,7 +17,7 @@
     },
     "prefix_header_file": "",
     "resources": {
-         "Mearilanguage/Assets/bundles/Language.bundle"
+         "MeariLanguage/Assets/bundles/Language.bundle"
     },
     "source": {
         "http": "https://meari-hz.oss-accelerate.aliyuncs.com/firmware/temp/MeariLanguage.zip",
@@ -28,6 +28,6 @@
         "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
         "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
     },
-    "vendored_libraries": "Mearilanguage/libMearilanguage.a",
+    "vendored_libraries": "MeariLanguage/libMeariLanguage.a",
     "version": "8.4.0.0.1"
 }
