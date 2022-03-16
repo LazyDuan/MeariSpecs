@@ -16,9 +16,9 @@
         "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
     },
     "prefix_header_file": "",
-    "resources": {
+    "resources": [
          "MeariLanguage/Assets/bundles/Language.bundle"
-    },
+    ],
     "source": {
         "http": "https://meari-hz.oss-accelerate.aliyuncs.com/firmware/temp/MeariLanguage.zip",
         "type": "zip"
